@@ -3,26 +3,50 @@
   color: #4E4E4E;
 }
 
-.button1 {
+
+.btn-geral {
+  background-color: #f5f5f5; /* cor tela */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+.lets {
     background-color: white;
-    color: black;
-    border: 2px solid #4CAF50; /* Green */
+    color: #3411ff;
+    border: 2px solid #3411ff; /* Green */
+    justify-items: center;
+    align-items: center;
   }
   
 body {
+
 }
+
 header {
     background-color:#f9f9f9;
     background-size: cover;
 }
 
 .container-fluid {
-    background-color: rgb(231, 205, 255);
+    background-color: rgb(255, 255, 255);
     background-size: cover;
     margin-top: auto;
-    height: 600px;
+    height: 800px;
     padding: 30px;
     display: flex;
+}
+.container {
+    align-items: center;
+    justify-items: center;
 }
 
 .card-home{
@@ -35,8 +59,8 @@ header {
     text-align: center;
 }
 .card-home img-media{
-    image-resolution: 400px;
-    size: 500px;
+    image-resolution: 600px;
+    size: 600px;
     align-items:center;
 }
 
