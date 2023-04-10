@@ -1,8 +1,29 @@
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.container-form-user {
+    display:inline;
+    width: 500px;
+    margin: auto;
+    align-items: center;
+    padding: 30px;
+    border: 2px 10px 10px 2px solid rgb(31, 46, 255);
+    border-radius: 20px;
+    justify-content: center
+   
+    
+}
+
 .form-login-user {
-    display: inline-block;
+    display: flexbox;
     flex-direction: column;
+   
+}
 
-    border: 2px solid rgb(101, 101, 255);
-
-
+.form-group{
+    
+    
 }
