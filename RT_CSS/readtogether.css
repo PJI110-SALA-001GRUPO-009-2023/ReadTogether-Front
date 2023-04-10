@@ -18,7 +18,7 @@ header {
     background-color: rgb(255, 255, 255);
     background-size: cover;
     margin-top: auto;
-    height: 800px;
+    height: 700px;
     padding: 30px;
     display: flex;
 }
@@ -28,10 +28,11 @@ header {
 }
 
 .card-home{
-    width: 400px;
+    width: 350px;
     padding-top: 100px;
     margin: auto;
     align-items: center;
+    justify-content: center
 }
 .card-title-home{
     text-align: center;
@@ -48,4 +49,12 @@ header {
 .card-text-body{
     text-align: justify;
     align-items:center;
+}
+.card-img-top{
+    size: 100px;
+    width: 50px;
+}
+
+.btn-primary {
+    margin: auto;
 }
