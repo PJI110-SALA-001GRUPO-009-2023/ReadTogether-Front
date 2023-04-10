@@ -3,34 +3,12 @@
   color: #4E4E4E;
 }
 
-
-.btn-geral {
-  background-color: #f5f5f5; /* cor tela */
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-
-
-.lets {
-    background-color: white;
-    color: #3411ff;
-    border: 2px solid #3411ff; /* Green */
-    justify-items: center;
-    align-items: center;
-  }
   
 body {
-
 }
-
+main {
+    background-color: #f9f9f9;
+}
 header {
     background-color:#f9f9f9;
     background-size: cover;
@@ -45,13 +23,14 @@ header {
     display: flex;
 }
 .container {
-    align-items: center;
-    justify-items: center;
+    vertical-align: middle;
+    margin: auto;
+    border: 10px solid black;
 }
 
 .card-home{
-    width: 300px;
-    padding-top: 50px;
+    width: 400px;
+    padding-top: 100px;
     margin: auto;
     align-items: center;
 }
@@ -59,19 +38,9 @@ header {
     text-align: center;
 }
 .card-home img-media{
-    image-resolution: 600px;
-    size: 600px;
+    image-resolution: 500px;
+    size: 500px;
     align-items:center;
-}
-
-.col-sm img-media {
-    max-width: 400px;
-   
-
-}
-.btn btn-primary{
-    background-color: blueviolet;
-    justify-items: center;
 }
 
 .card-title-home {
@@ -79,4 +48,5 @@ header {
 }
 .card-text-body{
     text-align: justify;
+    align-items:center;
 }
