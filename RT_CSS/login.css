@@ -1,0 +1,8 @@
+.form-login-user {
+    display: inline-block;
+    flex-direction: column;
+
+    border: 2px solid rgb(101, 101, 255);
+
+
+}
