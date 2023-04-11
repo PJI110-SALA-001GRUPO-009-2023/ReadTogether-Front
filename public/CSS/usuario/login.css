@@ -46,15 +46,18 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 30px;
+    padding: 20px;
     margin: auto;
 }
 
-.card{
+.form-login {
     margin: auto;
-    padding: 20px;
-    text-align: center;
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 400px; 
+    border: 1px solid var(--lilais);
+    border-top: 20px solid var(--lilais);
+    border-radius: 10px;
 }
