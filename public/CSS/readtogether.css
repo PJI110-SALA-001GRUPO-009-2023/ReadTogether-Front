@@ -1,0 +1,60 @@
+:root {
+    --lilais:#675fff ;
+    --azul-claro: #B1F1FF;
+    --cinza-escuro: #4E4E4E;
+    --cinza: #BDBDBD;
+    --cinza-claro: #E6E6E6;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+
+h5{
+    color: #675fff;
+}
+p{
+    text-align: justify;
+}
+body{
+    background-color: var(--cinza-claro);
+    width: 100%;
+    height: 1080px;
+}
+header{
+    height: 50px;
+}
+main{
+    height: 800px;
+    width: 100%;
+    align-items: center;
+}
+footer{
+    text-align: center;
+}
+.container-fluid{
+    height: auto;
+    width: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: white;
+    height: 500px;
+    width: 400px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    margin: auto;
+}
+
+.card{
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

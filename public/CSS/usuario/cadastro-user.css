@@ -1,0 +1,75 @@
+:root {
+    --lilais:#675fff ;
+    --azul-claro: #B1F1FF;
+    --cinza-escuro: #4E4E4E;
+    --cinza: #BDBDBD;
+    --cinza-claro: #E6E6E6;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+}
+
+h5{
+    color: #675fff;
+}
+p{
+    text-align: justify;
+}
+body{
+    background-color: var(--cinza-claro);
+    width: 100%;
+    height: 1080px;
+}
+header{
+    height: 50px;
+}
+main{
+    height: 800px;
+    width: 100%;
+    align-items: center;
+}
+footer{
+    text-align: center;
+}
+.container-fluid{
+    height: auto;
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: white;
+    
+    width: 900px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: auto;
+}
+
+.form-cad-user {
+    margin: auto;
+    padding: 50px 20px 50px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 900px; 
+    border: 1px solid var(--lilais);
+    border-top: 20px solid var(--lilais);
+    border-radius: 10px;
+}
+
+.row{
+    width: 900px;
+    padding: 10px;
+    margin: 10px;
+}
+.col {
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+    margin: 10px;
+}
