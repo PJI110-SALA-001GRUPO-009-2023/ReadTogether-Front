@@ -42,17 +42,18 @@ footer{
 }
 .container{
     background-color: white;
-    height: 500px;
-    width: 500px;
-    text-align: center;
-    display: flex;
+    width: 800px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 30px 10px 30px 10px;
     align-items: center;
     justify-content: center;
-    padding: 30px;
-    margin: auto;
+    display:flex;
+    flex-direction: column;
 }
 
 .card{
+    width: 800px;
     margin: auto;
     padding: 10px;
     text-align: center;

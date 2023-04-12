@@ -30,6 +30,14 @@ main{
 footer{
     text-align: center;
 }
+
+.logo-vert{
+    width: 400px;
+    padding: 20px;
+    margin: auto;
+    display: block;
+}
+
 .container-fluid{
     height: auto;
     width: auto;
@@ -38,26 +46,27 @@ footer{
     align-items: center;
     justify-content: center;
 }
-.container{
+.container-login{
     background-color: white;
-    height: 500px;
     width: 400px;
-    text-align: center;
-    display: flex;
+    margin: auto;
+    margin-top: 100px;
+    padding: 30px 10px 30px 10px;
     align-items: center;
     justify-content: center;
-    padding: 20px;
-    margin: auto;
+    display:flex;
+    flex-direction: column;
+    gap: 2;
+    box-shadow: 0px 10px 10px 0px  #c7c9d1;
+    border-radius: 10px;
+    border: 1px solid #675fff;
+    border-top: 6px solid #675fff;
+    border-bottom: 6px solid #675fff;
 }
 
-.form-login {
+.form-group{
+    width: 350px;
+    padding: 2px 2px 20px 2px;
+    text-align: left;
     margin: auto;
-    padding: 50px 20px 50px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 400px; 
-    border: 1px solid var(--lilais);
-    border-top: 20px solid var(--lilais);
-    border-radius: 10px;
 }

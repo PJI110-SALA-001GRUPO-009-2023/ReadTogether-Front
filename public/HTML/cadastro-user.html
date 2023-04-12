@@ -8,9 +8,9 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 
       <!-- CSS -->
-    <link rel="stylesheet" href="../CSS/usuario/login.css">  
+    <link rel="stylesheet" href="../CSS/usuario/cadastro-user.css">  
   
-    <script type="text/javascript" src=""></script>
+    <script type="text/javascript" src="../JavaScript/readtogether.js"></script>
 
     <!-- Bootstrap -->
     <link 
@@ -30,57 +30,70 @@
   </head>
   <body>
     <header>
-
+        <img class="logo-vert" src="../midia/imagens/Logos/logo-rt-h.png" alt="Logo ReadTogether" > 
     </header>
 
       <main>
         <div class="container-fluid">
-            <div class="container">
-               
-                <div class="form-cad-user">   
-                    <form>
-                        <div class="row">
-                            <div class="col">
-                                <input type="text" class="form-control" placeholder="Nome">
-                            </div>
-                            <div class="col">
-                                <input type="text" class="form-control" placeholder="Sobrenome">
-                            </div>
+            <div class="container-form">
+                
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1" class="label-form-cad">Nome:</label>
+                            <input type="text" class="form-control" id="inp-name" placeholder="Nome">
                         </div>
-                        <div class="w-100 d-none d-md-block"></div>
-                        <br>
-
-                        <div class="row">
-                            <div class="col">
-                                <input type="text" class="form-control" placeholder="Nome">
-                            </div>
-                            <div class="col">
-                                <input type="text" class="form-control" placeholder="Sobrenome">
-                            </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1" class="label-form-cad">Sobrenome</label>
+                            <input type="text" class="form-control" id="inp-lastname" placeholder="Sobrenome">
                         </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1" class="label-form-cad">E-mail</label>
+                            <input type="email" class="form-control" id="inp-email" placeholder="nome@exemplo.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1" class="label-form-cad">Local:</label>
+                            <input type="select" class="form-control" id="inp-local" placeholder="Exemplo: São Paulo - SP">
+                        </div>
+                    </div>
+
+                    <div class="col">
                         <br>
-                        <div class="row">
-                            <div class="col">
-                                <input type="text" class="form-control" placeholder="Nome">
-                            </div>
-                            <div class="col">
-                                <input type="text" class="form-control" placeholder="Sobrenome">
-                            </div>
+                        <div class="form-group">
+                            <label class="picture-input" for="picture__input" tabIndex="0">
+                                <span class="picture__image"></span>
+                            </label>
+                            <input type="file" name="picture__input" id="picture-input">
+                        </div>
+                
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1" class="label-form-cad">Descrição:</label>
+                            <textarea class="form-control" placeholder="Fale um pouco sobre você..." id="inp-text-bio" style="height: 100px"></textarea>
                         </div>
 
-                        <!-- <img class="card-img-top" src="../midia/imagens/Logos/logo-rt-h.png" alt="Logo ReadTogether"> -->
-              
-    
-                        <br>
-                        <button type="submit" class="btn btn-primary" style="background-color: #675fff; width: 100px; border: #675fff;">Login</button>
-
-                        <button type="submit" class="btn btn-primary" style="color:#675fff; background-color: #ffffff; width: 100px; border: 1px solid #675fff;">Signin</button>
-
-                        <a href="#" class="btn reset-password" style="color: #675fff;">Esqueceu a senha?</a>
-
-                    </form>
-
+                    </div>
                 </div>
+            
+                
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1" class="label-form-cad">Senha:</label>
+                        <input type="password" class="form-control" id="user-password" placeholder="Cadastre sua senha:">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1" class="label-form-cad">Confirme a senha:</label>
+                        <input type="password" class="form-control" id="user-password-conf" placeholder="Repita a senha cadastrada:">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button type="submit" class="btn btn-primary" style="background-color: #675fff; width: 100px; border: #675fff;">Finalizar</button>
+                    <a href="#" class="btn reset-password" style="color: #675fff;">Cancelar</a>          
+                </div>  
             </div>
         </div>
       </main>
