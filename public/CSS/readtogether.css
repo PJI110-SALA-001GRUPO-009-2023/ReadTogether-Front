@@ -12,15 +12,15 @@ h5{
     color: #675fff;
 }
 p{
-    text-align: justify;
+    text-align: center;
 }
 body{
     background-color: var(--cinza-claro);
     width: 100%;
-    height: 1080px;
+    height: 800px;
 }
 header{
-    height: 50px;
+    height: 20px;
 }
 main{
     height: 800px;
@@ -29,6 +29,8 @@ main{
 }
 footer{
     text-align: center;
+    align-items: end;
+    height: 100px;
 }
 .container-fluid{
     height: auto;
@@ -41,7 +43,7 @@ footer{
 .container{
     background-color: white;
     height: 500px;
-    width: 400px;
+    width: 500px;
     text-align: center;
     display: flex;
     align-items: center;
@@ -52,7 +54,7 @@ footer{
 
 .card{
     margin: auto;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     display: flex;
     align-items: center;
