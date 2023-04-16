@@ -35,47 +35,65 @@
       <div class="container-fluid">
         <div class="container" id="container-form">      
             <div class="row">
-                 <h3>Cadastre-se:</h3>
-                <div class="col">
-                            <label for="name" class="label-form-cad">Nome:</label>
-                            <input type="text" class="form-control" id="inp-name" placeholder="Nome">
-                            <label for="lastname" class="label-form-cad">Sobrenome</label>
-                            <input type="text" class="form-control" id="inp-lastname" placeholder="Sobrenome">
-                            <label for="email" class="label-form-cad">E-mail</label>
-                            <input type="email" class="form-control" id="inp-email" placeholder="nome@exemplo.com">
-                    
-                            <label for="local" class="label-form-cad">Local:</label>
-                            <input type="select" class="form-control" id="inp-local" placeholder="Exemplo: São Paulo - SP">
+                <h3>Cadastre-se:</h3>
+              <div class="col">
+                  <div class="md-4">
+                    <label for="name" class="label-form-cad">Nome:</label>
+                    <input type="text" class="form-control" id="inp-name" placeholder="Nome">
+                  </div>
+                  <div class="md-4">
+                    <label for="lastname" class="label-form-cad">Sobrenome</label>
+                    <input type="text" class="form-control" id="inp-lastname" placeholder="Sobrenome">
+                  </div> 
+                  <div class="md-4">
+                    <label for="email" class="label-form-cad">E-mail</label>
+                    <input type="email" class="form-control" id="inp-email" placeholder="nome@exemplo.com">
+                  </div>   
+                  <div class="md-4">
+                    <label for="local" class="label-form-cad">Local:</label>
+                    <input type="select" class="form-control" id="inp-local" placeholder="Exemplo: São Paulo - SP">
+                  </div>
+              </div>
+              
+              <div class="col">
+                <div class="md-4">
+                    <label class="picture-input" for="picture" tabIndex="0">
+                    <span class="picture-image"></span>
+                    </label>
                 </div>
-                <div class="col">
-                            <label class="picture-input" for="picture" tabIndex="0">
-                                <span class="picture-image"></span>
-                            </label>
-                            <input type="file" name="picture-input" id="picture-input">
-                            <label for="descricao" class="label-form-cad">Descrição:</label>
-                            <textarea class="form-control" placeholder="Fale um pouco sobre você..." id="inp-text-bio" style="height: 100px"></textarea>
-                        </div>
+                <div class="md-4">
+                  <input type="file" name="picture-input" id="picture-input">
+                  <div class="md-4">
+                    <label for="descricao" class="label-form-cad">Descrição:</label>
+                    <textarea class="form-control" placeholder="Fale um pouco sobre você..." id="inp-text-bio" style="height: 100px"></textarea>
+                </div>
+              </div>
             </div>
             <hr class="dashed">
             <div class="row">
-            <div class="col">
-                            <label for="senha" class="label-form-cad">Senha:</label>
-                            <input type="password" class="form-control" id="user-password" placeholder="Cadastre sua senha:">
-            </div>
-            <div class="col">
-                            <label for="repsenha" class="label-form-cad">Confirme a senha:</label>
-                            <input type="password" class="form-control" id="user-password-conf" placeholder="Repita a senha cadastrada:">
- 
-            </div>
-                        
-            <hr class="dashed">
-                    <div class="row">
-                            <div class="col">
-                                <a href="#" class="btn btn-primary" id="btn-lilais">Cadastrar</a>
-                                <a href="#" class="btn btn-primary" id="btn-branco">Cancelar</a>
-                            </div>
+              <div class="col">
+                <div class="md-4">
+                  <label for="senha" class="label-form-cad">Senha:</label>
+                  <input type="password" class="form-control" id="user-password" placeholder="Cadastre sua senha:">
                 </div>
-         </div>
+              </div>
+              <div class="col">
+                <div class="md-4">
+                  <label for="repsenha" class="label-form-cad">Confirme a senha:</label>
+                  <input type="password" class="form-control" id="user-password-conf" placeholder="Repita a senha cadastrada:">
+                </div>
+              </div> 
+            </div>          
+            <hr class="dashed">
+            <div class="row">
+              <div class="col">
+                <div class="md-4">
+                  <a href="#" class="btn btn-primary" id="btn-lilais">Cadastrar</a>
+                  <a href="#" class="btn btn-primary" id="btn-branco">Cancelar</a>
+                </div>
+                </div>
+              </div>
+            </div>
         </div>
       </div>
       </main>

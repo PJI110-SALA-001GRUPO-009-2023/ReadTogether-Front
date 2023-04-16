@@ -47,28 +47,26 @@ body {
 }
 
 .row{
-    display: flex;
     justify-content: center;
-    width: auto;
+    width: 100%;
     padding: 10px;
 }
 @media screen and (max-width: 600px) {
     .row {
-        flex-direction: column;
-    }
+        flex-direction: column;      
 }
 
 .col{
     padding: 10px;
-    width: 400px;
-
-}
-.form-control{
-    padding-bottom: 20px;
     width: 100%;
-    justify-self: center;
-}
 
+}
+.md-4{
+    padding: 10px;
+    width: 100%;
+    justify-content: center;
+
+}
 
 #btn-lilais{
     background-color: var(--lilais);
@@ -80,6 +78,8 @@ body {
     margin: 10px;
 
 }
+
+
 #btn-lilais:hover {
     border: 2px solid var(--lilais);
 }
@@ -102,7 +102,7 @@ body {
 .dashed{
     border: 1px dashed var(--cinza);
     justify-content: center;
-    width: auto;
+    width: 100%;
 }
 /* footer */
 
