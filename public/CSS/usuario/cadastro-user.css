@@ -35,7 +35,7 @@ body {
 }
 
 /*main */
-.container{
+#container-form{
     width: 800px;
     display: flex;
     flex-direction: column;
@@ -60,15 +60,13 @@ body {
 
 .col{
     padding: 10px;
-    width: 100%;
-    justify-content: center;
+    width: 400px;
+
 }
 .form-control{
     padding-bottom: 20px;
-    width: 90%;
+    width: 100%;
     justify-self: center;
-    align-items: normal;
-
 }
 
 
