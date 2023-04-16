@@ -45,6 +45,11 @@ body {
     border-radius: 10px;
     border: var(--lilais) solid;
 }
+@media screen and (max-width: 600px) {
+    #container-form {
+        width: 400px;
+    }
+}
 
 .row{
     justify-content: center;
@@ -52,8 +57,9 @@ body {
     padding: 10px;
 }
 @media screen and (max-width: 600px) {
-    .row {
-        flex-direction: column;      
+    .row{
+        flex-direction: column;
+    }
 }
 
 .col{
