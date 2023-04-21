@@ -108,17 +108,16 @@ a.logo-nav {
 }
 
 .row{
-    width: 100%;
+ 
     margin: 4 auto;
     padding: 4px;
     height: auto;
 }
 
 
-.col{
-    width: 100%;
-    margin: auto;
-    padding: 4px;
+.col-lg-4{
+    margin: 2px auto;
+    padding: 5px;
 }
 
 
@@ -134,15 +133,15 @@ a.logo-nav {
 }
 
 .container-clubes{
-    width: 100%;
-    padding: 30px;
-    border: 1px dashed var(--cinza);
+    padding: 1px;
+
 }
 
 .card{
     border: 1px solid var(--cinza);
     border-bottom: 4px solid var(--cinza);
     border-right: 2px solid var(--cinza);
+    margin: 10px;
 }
 #card-clubes{
     height: 200px;
@@ -150,7 +149,7 @@ a.logo-nav {
 
 .linha-bottom{
     border-bottom: 2px solid var(--cinza);
-    margin: 4px auto;
+    margin: 4px 20px;
 }
 .agenda{
     width: 100%;
@@ -160,10 +159,23 @@ a.logo-nav {
 }
 .btn-outline-primary{
     border: 1px solid var(--lilais);
+    margin: auto;
+
+   
 }
 .btn-outline-primary:hover{
     background-color: var(--lilais);
 }
+#btn-clube{
+    width: 100%;
+}
+
+.header-clubes-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 /* footer */
 
 .container-footer {
@@ -177,8 +189,4 @@ a.logo-nav {
     color:  var(--lilais);
     font-size: 14pt;
     text-decoration: none;
-}
-
-fieldset{
-    border: 2px dashed var(--cinza);
 }
