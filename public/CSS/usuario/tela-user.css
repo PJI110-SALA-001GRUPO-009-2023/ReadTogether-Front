@@ -17,6 +17,8 @@
 
 body {
     background-color: var(--cinza-claro);
+    margin: 0;
+    padding: 0;
 }
 
 .rt-git {
@@ -94,14 +96,31 @@ a.logo-nav {
 
 
 /*main */
-
-.container {
-    display: grid;
-    flex-direction: row;
-    height: 600px;
-    padding: 30px;
+.container-fluid{
+    height: 100%;
 
 }
+.container {
+    margin: 20px auto;
+    padding: 10px;
+    height: 100%;
+    align-items: center;
+}
+
+.row{
+    width: 100%;
+    margin: 4 auto;
+    padding: 4px;
+    height: auto;
+}
+
+
+.col{
+    width: 100%;
+    margin: auto;
+    padding: 4px;
+}
+
 
 /* perfil*/
 .card{
@@ -114,27 +133,37 @@ a.logo-nav {
     width: 200px;
 }
 
-.row{
-    border: solid red;
-
+.container-clubes{
+    width: 100%;
+    padding: 30px;
+    border: 1px dashed var(--cinza);
 }
 
+.card{
+    border: 1px solid var(--cinza);
+    border-bottom: 4px solid var(--cinza);
+    border-right: 2px solid var(--cinza);
+}
 #card-clubes{
     height: 200px;
 }
 
-.col{
-    border: solid blue;
+.linha-bottom{
+    border-bottom: 2px solid var(--cinza);
+    margin: 4px auto;
 }
-.col-4{
-    border: solid blue;
-
+.agenda{
+    width: 100%;
 }
-.col-8{
-    border: solid blue;
-  
+.list-group-item{
+    text-align: left;
 }
-
+.btn-outline-primary{
+    border: 1px solid var(--lilais);
+}
+.btn-outline-primary:hover{
+    background-color: var(--lilais);
+}
 /* footer */
 
 .container-footer {
@@ -148,4 +177,8 @@ a.logo-nav {
     color:  var(--lilais);
     font-size: 14pt;
     text-decoration: none;
+}
+
+fieldset{
+    border: 2px dashed var(--cinza);
 }
